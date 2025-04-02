@@ -1,0 +1,61 @@
+     
+    @font-face {
+        font-family: 'Bangers';
+        src: url('fonts/Bangers-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+     /* Estilos generales */
+     .carousel-item img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    #banner {
+        font-family: 'Bangers', cursive;
+        font-size: 2.5em;
+        color: red;
+        background: white;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+
+    .navbar-brand {
+        font-family: 'Bangers', cursive;
+        font-size: 2em;
+        color: red !important;  /* Mantiene el color rojo */
+        background: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+/* Evitar que el color cambie al hacer hover */
+.navbar-brand:hover {
+color: red !important;
+background: white;
+}
+
+    .navbar-nav .nav-link {
+        font-size: 1.2em;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+        background-color: red;
+        border-radius: 5px;
+    }
+
+    .navbar-toggler {
+        border-color: white;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+
+    
+    /* Usa la fuente en el sitio */
+   
